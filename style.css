@@ -415,9 +415,9 @@ i {
 .driver-overlay > img {
     position: absolute;
     right: 0;
-    bottom: 0;
+    top: 0;
     width: auto;
-    height: 100%;
+    height: 130%;
     object-fit: cover;
     object-position: center;
 }
