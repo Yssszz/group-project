@@ -804,4 +804,31 @@ footer {
         width: 100%;
         font-size: 12px;
     }
+
+    #sponser h1 {
+        font-size: 8vw; 
+    }
+
+    .sponser-grid {
+        gap: 30px;
+    }
+
+    #sponser h1{
+        text-align: center;
+    }
+
+    .sponser-brand {
+        flex-wrap: wrap; 
+        gap: 30px;
+        justify-content: center;
+    }
+
+    .other-sponser {
+        gap: 25px; 
+        justify-content: center;
+    }
+
+    #sponser img {
+        height: 30px;
+    }
 }
