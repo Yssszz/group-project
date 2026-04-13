@@ -547,6 +547,57 @@ i {
     transform: translateY(0) scale(1);
 }
 
+/* sponser */
+#sponser {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #091722;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+#sponser h1 {
+    font-family: "amg", sans-serif;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    font-size: 50px;
+    color: #449994;
+}
+
+#sponser img {
+    height: 40px;
+    width: auto;
+}
+
+.sponser-grid {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 60px;
+}
+
+.sponser-brand {
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #091722;
+    padding: 40px 20px;
+}
+
+.other-sponser {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #091722;
+    padding: 40px 20px;
+}
+
 /* stats */
 #stats {
     height: 100%;
